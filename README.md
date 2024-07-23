@@ -7,6 +7,7 @@
     * frequentist - relative frequency
     * bayesian - personal perspective  
   * different distributions 
+    * given distribution, initial prior distribution, update distribution parameters (mean/std) with given record, then get posterior distribution.
 * Course 2: (July 24/25/26/29/30)
 * Course 3: (July 31/Aug 1/2/5)
 * Course 4: (Aug 6/7/8/9)
