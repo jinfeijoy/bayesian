@@ -17,7 +17,7 @@
   * mcmc: 
      * [algorithm](https://d3c33hcgiwev3.cloudfront.net/_caf094bf3db01507bea6305d040883e4_lesson_04.html?Expires=1722124800&Signature=bX~KLfjoymB0cNNuz1YKmj97Vm0yXwRqTUslMNiFF9RlZjy5RMiT-fSRIfmIP4iKtGuwgIAwQXRm2cTv~NfQN85MFDUQQvsjBX-fGfoXsyWmc9q5jKiloe9Ml5l9BY73-AjlOLNNOHQ7cio0lNXhXyXuI5CmX9Fn9OHqmEtE41s_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
      * ideal accept rate for random walk is between 0.23-0.5, to increase accept rate we need to decrease standard deviation, to get a stationary distribution
-
+     * package: jags (pyjags in python)
 
 
 Course 3: (July 31/Aug 1/2/5)
