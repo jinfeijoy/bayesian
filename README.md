@@ -15,6 +15,7 @@
      * different layers: ![image](https://github.com/user-attachments/assets/c9f26147-f894-45c1-b0f6-06ddc43edc25)
      * [common probability distribution](https://d3c33hcgiwev3.cloudfront.net/_d7c17d00198049b1ccfdf72d2831d2be_Distributions.pdf?Expires=1721952000&Signature=RQzRCiRolMCjHfzo8GPjuXmigL2eFlN04lpij7VErwUSqKInvC-95BMfx4ptMw00HPYK21KkZlD0lw8AyHbJuUSZ-JWYEyimnYeCxQkNNsI6nn5XR0sUqGM~dukoLY6DIpDWEnm2r1se~5PqsPnLCRVKxPuxH~IDPoMO97fDfMk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A) 
   * mcmc: 
+     * [algorithm](https://d3c33hcgiwev3.cloudfront.net/_caf094bf3db01507bea6305d040883e4_lesson_04.html?Expires=1722124800&Signature=bX~KLfjoymB0cNNuz1YKmj97Vm0yXwRqTUslMNiFF9RlZjy5RMiT-fSRIfmIP4iKtGuwgIAwQXRm2cTv~NfQN85MFDUQQvsjBX-fGfoXsyWmc9q5jKiloe9Ml5l9BY73-AjlOLNNOHQ7cio0lNXhXyXuI5CmX9Fn9OHqmEtE41s_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
      * ideal accept rate for random walk is between 0.23-0.5, to increase accept rate we need to decrease standard deviation, to get a stationary distribution
 
 
