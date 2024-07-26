@@ -19,7 +19,7 @@
      * ideal accept rate for random walk is between 0.23-0.5, to increase accept rate we need to decrease standard deviation, to get a stationary distribution
      * package: jags (pyjags in python)
      * gibsampling: can be used to generate sampling with more than 1 parameter. first to identify distribution, then to get the parameter update function for posterier disyribution, then update parameters with mcmc 
-
+     * once generate samples, can calculate autocorrelation to check with how many lags the autocorrelation become 0. then can only take values every n lags to avoid autocorrelations to increase randomize
 
 Course 3: (July 31/Aug 1/2/5)
 * Course 4: (Aug 6/7/8/9)
