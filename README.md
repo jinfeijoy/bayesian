@@ -21,5 +21,14 @@
      * gibsampling: can be used to generate sampling with more than 1 parameter. first to identify distribution, then to get the parameter update function for posterier disyribution, then update parameters with mcmc 
      * once generate samples, can calculate autocorrelation to check with how many lags the autocorrelation become 0. then can only take values every n lags to avoid autocorrelations to increase randomize
      * multiple chain to check convergence, can use Gelman-rubin diagnostics, if value close to 1 then means converge, otherwise is not converge
-Course 3: (July 31/Aug 1/2/5)
+  * jags:
+     * define model string (include data y, distribution function, prior distribution for parameters, 
+     * specify the data, provide initial value for parameters
+     * use jags to get multiple chains
+     * combine chains and save samples (posterior distribution) 
+     * test convergence (trace plot, gelman diag, auto correlation, effective sample size)
+     * check residuals 
+     * average posterior distribution to get parameter value
+     * get y based on updated parameters, then check residual to see if its random distributed, then check qq plot to see if there are outliers, find out outliers based on residuals
+* Course 3: (July 31/Aug 1/2/5)
 * Course 4: (Aug 6/7/8/9)
