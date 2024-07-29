@@ -30,5 +30,9 @@
      * check residuals 
      * average posterior distribution to get parameter value
      * get y based on updated parameters, then check residual to see if its random distributed, then check qq plot to see if there are outliers, find out outliers based on residuals
+     * if model is not as good as expected, thete are two ways to pick another model: 
+        * adding more variables for existing distribution mu 
+        * change existing distribution to another distribution
+        
 * Course 3: (July 31/Aug 1/2/5)
 * Course 4: (Aug 6/7/8/9)
