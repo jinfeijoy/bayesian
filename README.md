@@ -22,7 +22,8 @@
      * once generate samples, can calculate autocorrelation to check with how many lags the autocorrelation become 0. then can only take values every n lags to avoid autocorrelations to increase randomize
      * multiple chain to check convergence, can use Gelman-rubin diagnostics, if value close to 1 then means converge, otherwise is not converge
   * jags:
-     * define model string (include data y, distribution function, prior distribution for parameters, 
+     * define model string (include data y, distribution function, prior distribution for parameters,
+       ![image](https://github.com/user-attachments/assets/7f2b8bfd-8859-4a81-a668-47c2e7b289c5)
      * specify the data, provide initial value for parameters
      * use jags to get multiple chains
      * combine chains and save samples (posterior distribution) 
