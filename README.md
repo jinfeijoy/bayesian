@@ -34,6 +34,9 @@
         * adding more variables for existing distribution mu 
         * change existing distribution to another distribution
      * evaluation matrics: DIC (Deviance information criteria)
-        
+  * anova
+     * used for category variable to check within group and out of group difference
+
+
 * Course 3: (July 31/Aug 1/2/5)
 * Course 4: (Aug 6/7/8/9)
