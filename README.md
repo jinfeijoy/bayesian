@@ -42,7 +42,7 @@
   * poison distribution, if model doesn't fit very well, can try negative binomial distribution
      * [code](https://d3c33hcgiwev3.cloudfront.net/_2e3249041d23214d57cf3a2e01a69d5f_lesson_10.html?Expires=1722470400&Signature=BSw7zzNwj0rCE02-93LL1kWaXNgjF2yJ2NPjQBMUjPa7pwh6gGIwllW0NiLCtamOUk7g9nTINY548DSkyZnLF3kKMN23ggXEkOtZClbbrsVFrMAC0WuvHjhlPq4b64Frc0zjPCyqM-IpwS9s5Rm-QovRg8qRGr0EKjCvyNNZofg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
   * hierarchical models：Being able to account for relationships in the data while estimating everything with the single model is a primary advantage of using hierarchical models.
-
+     * [code](https://d3c33hcgiwev3.cloudfront.net/_c1ff186bc258dd9175da24316a7dcc25_lesson_11.html?Expires=1722470400&Signature=apP3Qa80MYOYmIuAZIFdiDt2RwXc-147QP1ywW9RX9bUhSzlLGFXEm5Nih9vf3KD~u57~WZV0pdpIIw5k4AAGxa2xqhoL2CesYiha36Iwt0LDY40YH50FVXgXUC9lRzp8X2-Jsh0ZnORP8KTYbcle7iZey5O6r0Iioe32mFGfhY_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 
 * Course 3: (July 31.2/Aug 1.2/2.1)
 * Course 4: (Aug 7.2/8.1/9.1)
