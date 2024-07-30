@@ -41,5 +41,8 @@
           [multi factor anova](https://d3c33hcgiwev3.cloudfront.net/_934923025d1686bb6a850a5858fc97d7_lesson_08multipleANOVA.html?Expires=1722384000&Signature=OUEobQJVfu~KHoHFhvDC7HJNb5chnUC1aTP0JgZ8TwphO6oHJkqR1ZJlWGNZ5vqbN8D-FveemPBThWqf4SvpSzs9voGL5HeFAGuB9LuHS5i7OeXrZI5biCZqBIeKXtqQui0IY6AElzBmQYvtnLZt1cfJSypdSGk7E3-hU7dgwwM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
   * poison distribution, if model doesn't fit very well, can try negative binomial distribution
      * [code](https://d3c33hcgiwev3.cloudfront.net/_2e3249041d23214d57cf3a2e01a69d5f_lesson_10.html?Expires=1722470400&Signature=BSw7zzNwj0rCE02-93LL1kWaXNgjF2yJ2NPjQBMUjPa7pwh6gGIwllW0NiLCtamOUk7g9nTINY548DSkyZnLF3kKMN23ggXEkOtZClbbrsVFrMAC0WuvHjhlPq4b64Frc0zjPCyqM-IpwS9s5Rm-QovRg8qRGr0EKjCvyNNZofg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+  * hierarchical models：Being able to account for relationships in the data while estimating everything with the single model is a primary advantage of using hierarchical models.
+
+
 * Course 3: (July 31.2/Aug 1.2/2.1)
 * Course 4: (Aug 7.2/8.1/9.1)
