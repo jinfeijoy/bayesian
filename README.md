@@ -45,4 +45,9 @@
      * [code](https://d3c33hcgiwev3.cloudfront.net/_c1ff186bc258dd9175da24316a7dcc25_lesson_11.html?Expires=1722470400&Signature=apP3Qa80MYOYmIuAZIFdiDt2RwXc-147QP1ywW9RX9bUhSzlLGFXEm5Nih9vf3KD~u57~WZV0pdpIIw5k4AAGxa2xqhoL2CesYiha36Iwt0LDY40YH50FVXgXUC9lRzp8X2-Jsh0ZnORP8KTYbcle7iZey5O6r0Iioe32mFGfhY_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
 
 * Course 3: (July 31.2/Aug 1.2/2.1)
+  * mixture hierarchical: So for each observation that you want to generate, you're going to do two steps. 
+    * In the first step, you're going to randomly sample the component indicators. So you are going to sample c_i with probability given by the weights Omega_1 up to Omega_K. 
+    * Given the value of c_i that you just sampled, you are going to generate X_i from g of c_i. So this just means that sample X_i from the c_i component of the mixture. Again, I need to emphasize that this is a very simple algorithm that allows you to generate the random values. 
+
+
 * Course 4: (Aug 7.2/8.1/9.1)
