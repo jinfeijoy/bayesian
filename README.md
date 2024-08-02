@@ -48,6 +48,13 @@
   * mixture hierarchical: So for each observation that you want to generate, you're going to do two steps. 
     * In the first step, you're going to randomly sample the component indicators. So you are going to sample c_i with probability given by the weights Omega_1 up to Omega_K. 
     * Given the value of c_i that you just sampled, you are going to generate X_i from g of c_i. So this just means that sample X_i from the c_i component of the mixture. Again, I need to emphasize that this is a very simple algorithm that allows you to generate the random values. 
-
+  * MCMC for bayesian inference:
+    * sample code: [1](https://www.coursera.org/learn/mixture-models/supplement/HgGgw/sample-code-for-mcmc-example-1), [2](https://www.coursera.org/learn/mixture-models/supplement/wqh0u/sample-code-for-mcmc-example-2)
+    *  ![image](https://github.com/user-attachments/assets/63a954b1-8f33-4838-90d2-1fb2cacd92c6)
+    *  ![image](https://github.com/user-attachments/assets/619e1c2c-4c8d-450a-9f1c-84da9860cc40)
+    *  ![image](https://github.com/user-attachments/assets/3d46d140-aa81-4242-9f2e-e703134e70ee)
+    *  ![image](https://github.com/user-attachments/assets/63138a55-ff75-40ca-b4d8-7fe2d747ca64)
+    *  ![image](https://github.com/user-attachments/assets/ebe25f9e-c853-4263-9da7-5308d0c9e96e)
+  * Application 
 
 * Course 4: (Aug 8.1/12.1/13.1/14.1)
