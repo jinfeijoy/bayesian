@@ -1,6 +1,6 @@
 # Bayesian
 
-## Stage 1: [coursera specialization](https://www.coursera.org/specializations/bayesian-statistics) (July 22 - Aug 9) 
+## Stage 1: [coursera specialization](https://www.coursera.org/specializations/bayesian-statistics) (July 22 - Aug 16) 
 * Course 1: (July 22/23)
   * probability:
     * classical - equally likely
@@ -50,4 +50,4 @@
     * Given the value of c_i that you just sampled, you are going to generate X_i from g of c_i. So this just means that sample X_i from the c_i component of the mixture. Again, I need to emphasize that this is a very simple algorithm that allows you to generate the random values. 
 
 
-* Course 4: (Aug 8.2/12.1/13.1)
+* Course 4: (Aug 8.1/12.1/13.1/14.1)
