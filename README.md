@@ -56,5 +56,8 @@
     *  ![image](https://github.com/user-attachments/assets/63138a55-ff75-40ca-b4d8-7fe2d747ca64)
     *  ![image](https://github.com/user-attachments/assets/ebe25f9e-c853-4263-9da7-5308d0c9e96e)
   * Application 
+    * density estimation (kernal density estimation / mixture model)
+    * clustering (k means/mixture model with EM)
+    * classification 
 
 * Course 4: (Aug 8.1/12.1/13.1/14.1)
