@@ -59,5 +59,6 @@
     * density estimation (kernal density estimation / mixture model)
     * clustering (k means/mixture model with EM)
     * classification 
+  * BIC: bayesian information criteria, model accuracy + model complexity, lower better
 
 * Course 4: (Aug 8.1/12.1/13.1/14.1)
