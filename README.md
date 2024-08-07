@@ -62,3 +62,6 @@
   * BIC: bayesian information criteria, model accuracy + model complexity, lower better
 
 * Course 4: (Aug 8.1/12.1/13.1/14.1)
+  * bayesian time series: given prior distribution of parameter, get function of model, get posterior function of parameter with conditional term, update posterior distribution with function and input data
+  * AR(p): linear model with log term
+  * normal dynamic linear model
