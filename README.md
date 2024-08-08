@@ -68,3 +68,7 @@
   * bayesian time series: given prior distribution of parameter, get function of model, get posterior function of parameter with conditional term, update posterior distribution with function and input data
   * AR(p): linear model with log term
   * normal dynamic linear model
+
+
+# Reference
+* [popular library](https://samanemami.medium.com/popular-libraries-for-bayesian-network-learning-in-python-f77515f8cba8):PyMC3, NiLearn, pgmpy, PyBN, Orange3-Bayesian-Networks
