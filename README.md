@@ -1,5 +1,8 @@
 # Bayesian
 
+![image](https://github.com/user-attachments/assets/cbd5fd2f-69b6-472b-9fa7-7e19c0df4c57)
+
+
 ## Stage 1: [coursera specialization](https://www.coursera.org/specializations/bayesian-statistics) (July 22 - Aug 16) 
 * Course 1: (July 22/23)
   * probability:
