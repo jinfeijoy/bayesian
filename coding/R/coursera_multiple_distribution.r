@@ -1,4 +1,4 @@
-install.packages('COUNT')
+install.packages('mclust')
 
 ############################################ Linear Regression ######################################################
 library("car")

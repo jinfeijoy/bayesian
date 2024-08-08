@@ -1,5 +1,5 @@
 
-# install.packages('rjags')
+# install.packages('fourPNO')
 library("rjags")
 
 ############################################ MCMC ######################################################
