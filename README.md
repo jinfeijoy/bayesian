@@ -68,6 +68,15 @@
   * bayesian time series: given prior distribution of parameter, get function of model, get posterior function of parameter with conditional term, update posterior distribution with function and input data
   * AR(p): linear model with log term
   * normal dynamic linear model
+    * ![image](https://github.com/user-attachments/assets/49cc83be-ea08-4da4-b725-8f30c7c42591)
+    * ![image](https://github.com/user-attachments/assets/de6197b3-532f-45bb-9535-b02bc3a1b00e)
+    * [polynomial trend model / regression models](https://d3c33hcgiwev3.cloudfront.net/a8vHq7xtSqSLx6u8bYqkfA_f51c9ba90e9e4b40b2c1a0befea5a2f1_polynomial_regression_ndlms.pdf?Expires=1723766400&Signature=fRZcLlJTcFo-ur2WCwPbBk~fTyun7E8HLXd58zjyclX4~USq7kdCp2OovfreogO546w44CUCgWlPQ19yATLJKeZDcAGjx~MCm-fRoCjKReZEZIFz5CK2f3eiip1gnGQnzMOXKq8jEcWYMowfCaSEHAZMMG6~Ojp2Bv9hy17Q4CM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+    * [filtering](https://d3c33hcgiwev3.cloudfront.net/aRFJzWzkTsuRSc1s5A7LJw_55c28091fa2b488b9824c34effa8faf1_ndlm_filtering.pdf?Expires=1723766400&Signature=HFkfdw-cz1h6B0qtgLg8KSuW2xYewcmf1F91ScY-RrNMV~QRd~UbKSmFOaDZCkUKXxC0ob8jcD8jCXzNDBR~7MW1vXHzfc-9pnJBe5wA8SdfJ3vG3dARsc7O2guvfDs7MadGCpjc03Ohw8j4gOWBaLCCE~mgRoNlFoZOR2tM5tM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+    * [smoothing/forecasting](https://d3c33hcgiwev3.cloudfront.net/alTgaLx4SF6U4Gi8eBhe6A_ecbc0d9bf7d642d093f6f74673e3b5f1_ndlm_smoothing_forecasting.pdf?Expires=1723766400&Signature=E4FzV2IwdbU6URTpNmBLcnOun5esVft--uLK5Nmbc2U-lzqJNuGQD95DZ36p2k6jkRNo9vYqY-i20fayPcRmZ2REjfwbotGUnFQ9RJegxFNtZ-wqgiIVTnKTLajSTYNqTUULUKEDxvp6c5X8sk1Xv0anwoTNzwcT2viUKAtiby0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+
+
+
+ 
 
 
 # Reference
