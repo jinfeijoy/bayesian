@@ -16,9 +16,9 @@
      * quantify uncertainty / inference / measure support for hypotheses / prediction 
   * bayesian model:
      * different layers: ![image](https://github.com/user-attachments/assets/c9f26147-f894-45c1-b0f6-06ddc43edc25)
-     * [common probability distribution](https://d3c33hcgiwev3.cloudfront.net/_d7c17d00198049b1ccfdf72d2831d2be_Distributions.pdf?Expires=1721952000&Signature=RQzRCiRolMCjHfzo8GPjuXmigL2eFlN04lpij7VErwUSqKInvC-95BMfx4ptMw00HPYK21KkZlD0lw8AyHbJuUSZ-JWYEyimnYeCxQkNNsI6nn5XR0sUqGM~dukoLY6DIpDWEnm2r1se~5PqsPnLCRVKxPuxH~IDPoMO97fDfMk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A) 
+     * [common probability distribution](https://www.coursera.org/learn/mcmc-bayesian-statistics/supplement/eWn7B/reference-common-probability-distributions) 
   * mcmc: 
-     * [algorithm](https://d3c33hcgiwev3.cloudfront.net/_caf094bf3db01507bea6305d040883e4_lesson_04.html?Expires=1722124800&Signature=bX~KLfjoymB0cNNuz1YKmj97Vm0yXwRqTUslMNiFF9RlZjy5RMiT-fSRIfmIP4iKtGuwgIAwQXRm2cTv~NfQN85MFDUQQvsjBX-fGfoXsyWmc9q5jKiloe9Ml5l9BY73-AjlOLNNOHQ7cio0lNXhXyXuI5CmX9Fn9OHqmEtE41s_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+     * [algorithm](https://www.coursera.org/learn/mcmc-bayesian-statistics/supplement/XKbXM/markov-chains)
      * ideal accept rate for random walk is between 0.23-0.5, to increase accept rate we need to decrease standard deviation, to get a stationary distribution
      * package: jags (pyjags in python)
      * gibsampling: can be used to generate sampling with more than 1 parameter. first to identify distribution, then to get the parameter update function for posterier disyribution, then update parameters with mcmc 
@@ -40,12 +40,11 @@
      * evaluation matrics: DIC (Deviance information criteria)
   * anova
      * used for category variable to check within group and out of group difference
-  * code: [anova](https://d3c33hcgiwev3.cloudfront.net/_79e4d8c2bf9cf1a0589ba96902cf8fee_lesson_08.html?Expires=1722384000&Signature=jHJZ9HmdYtXuB5vj25DXtlYRoWNZdkKQSlQLT1C7rEv-TrNIHc8s4Zq~4ky88PIzUaUko5PAbrtfwlXZu0OKh0wmABioEKNrWAe3v~0TQpFM1u-DSMaheyKiz42GgzKCr7JQLJsOV3aiGiJDWg9--4BFOmt7ydpiSq5FlVPNQpw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A),[linear](https://d3c33hcgiwev3.cloudfront.net/_88ead38436bb1be19e37ed542ac9b49a_lesson_07.html?Expires=1722384000&Signature=TfIgZFyxqD8ZiG1NYF7K9G6Wrm9S-xAuviQdTQ06iFpC8jeHxegWZONJ71UdSoo~ZA4aqXWnGjbfWwAe1llNqudx3bIKObfZafWp6ryuJBYX5DF7dNcGOO~xMAx9rJkXExM9CDLFXtNos1uzh2nDpbBXobE2B1XYraiYsElDQ1U_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A),[logistic](https://d3c33hcgiwev3.cloudfront.net/_788f56b413be4c89c5a13d4b1faa2891_lesson_09.html?Expires=1722384000&Signature=TtRuCUGxJr6ApfOE5Ug6abtA0ya3TqfCKeYnzyiwJDw9KAw9fkeQe9O98aHZItvF5sxOVJxdNc5VEmA6pGemc~~qROkQIRLLZxgtt1-8zfjYu7HUpwLpWYTFDNe0RiZk9JSNpO6BlBTrf7DNj15iON6P7LEKwVGu9wdXzIgu~S0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
-          [multi factor anova](https://d3c33hcgiwev3.cloudfront.net/_934923025d1686bb6a850a5858fc97d7_lesson_08multipleANOVA.html?Expires=1722384000&Signature=OUEobQJVfu~KHoHFhvDC7HJNb5chnUC1aTP0JgZ8TwphO6oHJkqR1ZJlWGNZ5vqbN8D-FveemPBThWqf4SvpSzs9voGL5HeFAGuB9LuHS5i7OeXrZI5biCZqBIeKXtqQui0IY6AElzBmQYvtnLZt1cfJSypdSGk7E3-hU7dgwwM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+  * code: [anova](https://www.coursera.org/learn/mcmc-bayesian-statistics/supplement/CTouY/code-for-lesson-8),[linear](https://www.coursera.org/learn/mcmc-bayesian-statistics/supplement/WIukj/code-for-lesson-7),[logistic](https://www.coursera.org/learn/mcmc-bayesian-statistics/supplement/Xtxy8/code-for-lesson-9), [multi factor anova]([https://d3c33hcgiwev3.cloudfront.net/_934923025d1686bb6a850a5858fc97d7_lesson_08multipleANOVA.html?Expires=1722384000&Signature=OUEobQJVfu~KHoHFhvDC7HJNb5chnUC1aTP0JgZ8TwphO6oHJkqR1ZJlWGNZ5vqbN8D-FveemPBThWqf4SvpSzs9voGL5HeFAGuB9LuHS5i7OeXrZI5biCZqBIeKXtqQui0IY6AElzBmQYvtnLZt1cfJSypdSGk7E3-hU7dgwwM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A](https://www.coursera.org/learn/mcmc-bayesian-statistics/supplement/MO97o/multiple-factor-anova))
   * poison distribution, if model doesn't fit very well, can try negative binomial distribution
-     * [code](https://d3c33hcgiwev3.cloudfront.net/_2e3249041d23214d57cf3a2e01a69d5f_lesson_10.html?Expires=1722470400&Signature=BSw7zzNwj0rCE02-93LL1kWaXNgjF2yJ2NPjQBMUjPa7pwh6gGIwllW0NiLCtamOUk7g9nTINY548DSkyZnLF3kKMN23ggXEkOtZClbbrsVFrMAC0WuvHjhlPq4b64Frc0zjPCyqM-IpwS9s5Rm-QovRg8qRGr0EKjCvyNNZofg_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+     * [code](https://www.coursera.org/learn/mcmc-bayesian-statistics/supplement/RoN7n/code-for-lesson-10)
   * hierarchical models：Being able to account for relationships in the data while estimating everything with the single model is a primary advantage of using hierarchical models.
-     * [code](https://d3c33hcgiwev3.cloudfront.net/_c1ff186bc258dd9175da24316a7dcc25_lesson_11.html?Expires=1722470400&Signature=apP3Qa80MYOYmIuAZIFdiDt2RwXc-147QP1ywW9RX9bUhSzlLGFXEm5Nih9vf3KD~u57~WZV0pdpIIw5k4AAGxa2xqhoL2CesYiha36Iwt0LDY40YH50FVXgXUC9lRzp8X2-Jsh0ZnORP8KTYbcle7iZey5O6r0Iioe32mFGfhY_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+     * [code](https://www.coursera.org/learn/mcmc-bayesian-statistics/supplement/RA1na/code-and-data-for-lesson-11)
 
 * Course 3: (July 31.2/Aug 2.1/6.1/7.1)
   * mixture hierarchical: So for each observation that you want to generate, you're going to do two steps. 
@@ -70,9 +69,9 @@
   * normal dynamic linear model
     * ![image](https://github.com/user-attachments/assets/49cc83be-ea08-4da4-b725-8f30c7c42591)
     * ![image](https://github.com/user-attachments/assets/de6197b3-532f-45bb-9535-b02bc3a1b00e)
-    * [polynomial trend model / regression models](https://d3c33hcgiwev3.cloudfront.net/a8vHq7xtSqSLx6u8bYqkfA_f51c9ba90e9e4b40b2c1a0befea5a2f1_polynomial_regression_ndlms.pdf?Expires=1723766400&Signature=fRZcLlJTcFo-ur2WCwPbBk~fTyun7E8HLXd58zjyclX4~USq7kdCp2OovfreogO546w44CUCgWlPQ19yATLJKeZDcAGjx~MCm-fRoCjKReZEZIFz5CK2f3eiip1gnGQnzMOXKq8jEcWYMowfCaSEHAZMMG6~Ojp2Bv9hy17Q4CM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
-    * [filtering](https://d3c33hcgiwev3.cloudfront.net/aRFJzWzkTsuRSc1s5A7LJw_55c28091fa2b488b9824c34effa8faf1_ndlm_filtering.pdf?Expires=1723766400&Signature=HFkfdw-cz1h6B0qtgLg8KSuW2xYewcmf1F91ScY-RrNMV~QRd~UbKSmFOaDZCkUKXxC0ob8jcD8jCXzNDBR~7MW1vXHzfc-9pnJBe5wA8SdfJ3vG3dARsc7O2guvfDs7MadGCpjc03Ohw8j4gOWBaLCCE~mgRoNlFoZOR2tM5tM_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
-    * [smoothing/forecasting](https://d3c33hcgiwev3.cloudfront.net/alTgaLx4SF6U4Gi8eBhe6A_ecbc0d9bf7d642d093f6f74673e3b5f1_ndlm_smoothing_forecasting.pdf?Expires=1723766400&Signature=E4FzV2IwdbU6URTpNmBLcnOun5esVft--uLK5Nmbc2U-lzqJNuGQD95DZ36p2k6jkRNo9vYqY-i20fayPcRmZ2REjfwbotGUnFQ9RJegxFNtZ-wqgiIVTnKTLajSTYNqTUULUKEDxvp6c5X8sk1Xv0anwoTNzwcT2viUKAtiby0_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A)
+    * [polynomial trend model / regression models](https://www.coursera.org/learn/bayesian-statistics-time-series-analysis/supplement/5ohZ7/summary-of-polynomial-trend-and-regression-models)
+    * [filtering](https://www.coursera.org/learn/bayesian-statistics-time-series-analysis/supplement/naNV8/summary-of-the-filtering-distributions)
+    * [smoothing/forecasting](https://www.coursera.org/learn/bayesian-statistics-time-series-analysis/supplement/5jd5M/summary-of-the-smoothing-and-forecasting-distributions)
 
 
 
